@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2327e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -18,22 +18,27 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="deathstar" translatesAutoresizingMaskIntoConstraints="NO" id="5OV-9f-2sT">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="5OV-9f-2sT" secondAttribute="height" multiplier="1000:679" id="fcC-KS-8Z3"/>
+                                </constraints>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Atat" translatesAutoresizingMaskIntoConstraints="NO" id="kkr-Ad-nVB">
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="kkr-Ad-nVB" secondAttribute="height" multiplier="357:349" id="0wB-Dj-5gl"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="m-falcon" translatesAutoresizingMaskIntoConstraints="NO" id="9lh-mn-qr3">
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="9lh-mn-qr3" secondAttribute="height" multiplier="15:8" id="RjC-Uv-a8B"/>
-                                </constraints>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Grass" translatesAutoresizingMaskIntoConstraints="NO" id="dtI-Az-bwb">
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="dtI-Az-bwb" secondAttribute="height" multiplier="8:5" id="dDx-Ee-ySr"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="m-falcon" translatesAutoresizingMaskIntoConstraints="NO" id="9lh-mn-qr3">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="9lh-mn-qr3" secondAttribute="height" multiplier="15:8" id="RjC-Uv-a8B"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sun" translatesAutoresizingMaskIntoConstraints="NO" id="lHH-qk-GMR">
@@ -59,11 +64,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KidsPlaying" translatesAutoresizingMaskIntoConstraints="NO" id="qHP-qH-Jt1">
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="qHP-qH-Jt1" secondAttribute="height" multiplier="1139:923" id="aUC-yL-wmd"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="deathstar" translatesAutoresizingMaskIntoConstraints="NO" id="5OV-9f-2sT">
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="5OV-9f-2sT" secondAttribute="height" multiplier="1000:679" id="fcC-KS-8Z3"/>
                                 </constraints>
                             </imageView>
                         </subviews>
